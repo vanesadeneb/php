@@ -1,0 +1,99 @@
+body{
+    background-color: #49654E;
+}
+.container{
+    display: table;
+    background-color: #C0CFB2;
+    padding: 2em;
+    text-align: center;
+    margin: 3em auto;
+}
+header {
+    text-align: center;
+}
+a {
+    display: table-cell;
+    padding: 1em;
+}
+
+a img{
+    border-radius: 10%;
+    height: 225px;
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+    width: 225px;
+}
+a:hover img{ 
+    height: 250px;
+    opacity: 1;
+    width: 250px;
+}
+figure{
+    display: inline-block;
+    height: 225px;
+    position: relative;
+    width: 225px;
+    
+}
+h1{
+    color: #E4E6D9;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin: 1em;
+    
+}
+h3 {
+    color:#253528;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    margin-left: 1em;
+    position: absolute;
+    top:0;
+}
+#cont-img{
+    display: relative;
+}
+#modificar{
+	position: absolute;
+ 	left: 1%;
+ 	top:50%;
+}
+.fa-trash-alt, .fa-pencil-alt {
+    margin: 3em;
+    color: #253528;
+}
+/*======================cantante.php======================================*/
+
+.cantante-img{
+    height: 260px;
+    width: 260px;
+}
+aside{
+    text-align: left;
+}
+
+h2{
+    color: #49654E;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1.5em;
+}
+p{
+    color: #253528;
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400; 
+    
+}
+span{
+    color: #41848F;
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+}
+/*======================================================*/
+.btn-primary{
+    margin-top: 1em;
+}
