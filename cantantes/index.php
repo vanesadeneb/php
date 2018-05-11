@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>Galeria de Cantantes</h1>
-        <a href="guardar.php" class="btn btn-outline-success" role="button" aria-pressed="true">AGREGAR <i class="fas fa-plus"></i></a>
+        <a href="insertar.php" class="btn btn-outline-success" role="button" aria-pressed="true">AGREGAR <i class="fas fa-plus"></i></a>
     </header>
     <section class="container">
         <div class="row">
@@ -30,8 +30,8 @@
                       <h3>'.$row['nombre'].'</h3>
                   </figure></a>
                   <div class="" id="modificar">
-                  <a href="eliminar.php"><i class="fas fa-trash-alt"></i></a>
-                  <a href="guardar.php"><i class="fas fa-pencil-alt"></i></a>
+                  <a href="eliminar.php?id='.$row['id'].'"><i class="fas fa-trash-alt"></i></a>
+                  <a href="actualizar.php?id='.$row['id'].'"><i class="fas fa-pencil-alt"></i></a>
                   </div>
                 </div>';
         }
